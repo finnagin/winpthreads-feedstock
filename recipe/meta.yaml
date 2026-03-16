@@ -30,11 +30,6 @@ build:
   number: 0
   skip: True  # [not win]
 
-requirements:
-  build:
-    - {{ stdlib('c') }}
-    - {{ compiler('c') }}
-
 outputs:  
   - name: libwinpthread
     script: install_libwinpthread.bat
