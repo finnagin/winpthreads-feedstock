@@ -33,7 +33,7 @@ build:
 requirements:
   build:
     - {{ stdlib('c') }}
-    - {{ compiler('cxx') }}
+    - {{ compiler('c') }}
 
 outputs:  
   - name: libwinpthread
