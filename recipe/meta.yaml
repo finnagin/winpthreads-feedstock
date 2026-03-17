@@ -19,7 +19,7 @@ source:
       # archive since the package link above expires when new versions appear.
       - https://github.com/conda-forge/msys2-recipes/releases/download/20250618-clangarm64/mingw-w64-clang-aarch64-libwinpthread-git-{{ arm64_version }}-any.pkg.tar.zst
     sha256: 7f2f9b450026fa576d333aa5b6c5093e827477dfe4a402a7264b6b943a889581
-    folder: binary-libwinpthread
+    folder: binary-libwinpthread-arm64
 
   - url:
       - https://repo.msys2.org/mingw/ucrt64/mingw-w64-ucrt-x86_64-winpthreads-git-{{ version }}-any.pkg.tar.zst
@@ -33,7 +33,7 @@ source:
       # archive since the package link above expires when new versions appear.
       - https://github.com/conda-forge/msys2-recipes/releases/download/20250618-clangarm64/mingw-w64-clang-aarch64-winpthreads-git-{{ arm64_version }}-any.pkg.tar.zst
     sha256: 1f06eb2b280f5288436cd9f1d446f0416a65d1d009e61cb685627f06590e59fb
-    folder: binary-winpthreads
+    folder: binary-winpthreads-arm64
 
   - url:
       # archive them for license compliance
@@ -47,7 +47,7 @@ source:
       - https://repo.msys2.org/mingw/sources/mingw-w64-winpthreads-git-{{ arm64_version }}.src.tar.gz
       - https://github.com/conda-forge/msys2-recipes/releases/download/20250618-clangarm64/mingw-w64-winpthreads-git-{{ arm64_version }}.src.tar.zst
     sha256: bdc6f6116f8c70584e11eb2162515568b1241eb4e2c55b6f9f3b1c316e935c2d
-    folder: src-winpthread
+    folder: src-winpthread-arm64
 
 build:
   number: 0
