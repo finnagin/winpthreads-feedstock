@@ -39,7 +39,7 @@ source:
 
   - url:
       # archive them for license compliance
-      - https://repo.msys2.org/mingw/sources/mingw-w64-winpthreads-{{ version }}.src.tar.gz
+      - https://repo.msys2.org/mingw/sources/mingw-w64-winpthreads-{{ version }}.src.tar.zst
       # NEED TO UPDATE with new archive:
       #- https://github.com/conda-forge/msys2-recipes/releases/download/20230914-ucrt64/mingw-w64-winpthreads-git-{{ version }}.src.tar.gz
     sha256: 7cb3d654d8969013231c51417640c3558f9c7a4b039a4fa1ea11c660445422c7
