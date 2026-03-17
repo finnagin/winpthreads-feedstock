@@ -4,8 +4,8 @@ if %target_platform%=="win-64" (
   xcopy %SRC_DIR%\binary-winpthreads\ucrt64\include\* %LIBRARY_INC%\ /s /e /y
 )
 if %target_platform%=="win-arm64" (
-  xcopy %SRC_DIR%\binary-winpthreads\clangarm64\lib\* %LIBRARY_LIB%\ /s /e /y
-  xcopy %SRC_DIR%\binary-winpthreads\clangarm64\include\* %LIBRARY_INC%\ /s /e /y
+  xcopy %SRC_DIR%\binary-winpthreads-arm64\clangarm64\lib\* %LIBRARY_LIB%\ /s /e /y
+  xcopy %SRC_DIR%\binary-winpthreads-arm64\clangarm64\include\* %LIBRARY_INC%\ /s /e /y
 )
 
 echo LIBRARY libwinpthread-1 > libwinpthread-1.def
