@@ -1,3 +1,5 @@
+@echo on
+
 mkdir %LIBRARY_BIN%
 if %target_platform%=="win-64" (
   xcopy %SRC_DIR%\binary-winpthreads\ucrt64\lib\* %LIBRARY_LIB%\ /s /e /y
